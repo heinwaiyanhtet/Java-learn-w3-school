@@ -1,4 +1,4 @@
- class HelloWorld{
+ class HelloWorld {
 
     // Java Recursion
     //
@@ -40,9 +40,55 @@
     // }
   
 
+    // int x = 5;
+    // int x = 10;
+
+    // static void myStaticMethod()
+    // {
+    //     System.out.println("Static methods can be called without creating objects");
+    // }
+
+    // public void myPublicMethod()
+    // {
+    //     System.out.println("Public methods must can be called by creating objects");
+    // }
+
+
+    public void fullThrottle()
+    {
+        System.out.println("The car is going as far as it can!");
+    }
+
+    public void speed(int maxSpeed)
+    {
+        System.out.println("Max speed is " + maxSpeed);
+    }
+    
     public static void main(String args[]){
 
+        HelloWorld myObj = new HelloWorld();
 
+        myObj.fullThrottle();
+        myObj.speed(200);
+
+
+        // myStaticMethod();
+
+        // HelloWorld myObj = new HelloWorld();
+        // myObj.myPublicMethod();
+
+        // HelloWorld myObj = new HelloWorld();
+        // myObj.x = 25;
+        // System.out.println(x);
+
+        // HelloWorld myObj1 = new HelloWorld();
+        // HelloWorld myObj2 = new HelloWorld();
+
+        // System.out.println(myObj1.x);
+        // System.out.println(myObj2.x);
+
+        // HelloWorld myObj = new HelloWorld();
+        // System.out.println(myObj.x);
             
         // int result =  sum(10);
         // System.out.println(result);
