@@ -1,4 +1,16 @@
- class HelloWorld {
+//  class Vechile{
+
+//     protected String brand = "Ford";
+
+//     public void honk(){
+//         System.out.println("Tuut , tuut!");
+//     }
+
+// }
+ 
+//  import java.util.Scanner; 
+
+ class HelloWorld{
 
     // Java Recursion
     //
@@ -53,24 +65,113 @@
     //     System.out.println("Public methods must can be called by creating objects");
     // }
 
+    // public void fullThrottle()
+    // {
+    //     System.out.println("The car is going as far as it can!");
+    // }
 
-    public void fullThrottle()
-    {
-        System.out.println("The car is going as far as it can!");
-    }
+    // public void speed(int maxSpeed)
+    // {
+    //     System.out.println("Max speed is " + maxSpeed);
+    // }
 
-    public void speed(int maxSpeed)
-    {
-        System.out.println("Max speed is " + maxSpeed);
-    }
+    // int x;
+
+    // public HelloWorld(){
+    //     x = 5;
+    // }
     
+    // int modelYear;
+    // String modelName;
+
+    // public HelloWorld(int year,String name)
+    // {
+    //     modelYear = year;
+    //     modelName = name;
+    // }
+
+    // final int x  = 10;
+    // final double PI = 3.14;
+
+    // abstract class Main
+    // {
+    //     public String fname = "John";
+    //     public int age = 24;
+    //     public abstract void study();
+    // }
+
+    // class Student extends Main
+    // {
+    //     public int graduationYear = 2018;
+
+    //     public void study(){
+    //         System.out.println("Studying all day long");
+    //     }
+    // }
+    // private String name;
+
+    // public class Person {
+    //     private String name;
+
+    //     public String getName()
+    //     {
+    //         return name;
+    //     }
+
+    //     public void setName(String newName){
+    //         this.name = newName
+    //     }
+    // }
+
+    // class OuterClass{
+    //     int x = 10;
+
+    //     class InnerClass {
+    //         int y = 5;
+    //     }
+    // }
+
+   
+    // private String modelName = "Mustang";
+
     public static void main(String args[]){
+    
 
-        HelloWorld myObj = new HelloWorld();
+        // Scanner myObj = new Scanner(System.in);
+        // System.out.println("Enter userName");
 
-        myObj.fullThrottle();
-        myObj.speed(200);
 
+        // String userName = myObj.nextLine();
+        // System.out.println("Username is : " + userName);
+        
+        // Car myCar = new Car();
+
+        // myCar.honk();
+
+        // System.out.println(myCar.brand + " " + myCar.modelName);
+        
+        // OuterClass myOuter = new OuterClass();
+        // OuterClass.InnerClass myInner = myOuter.new InnerClass();
+        // System.out.println(myInner.y + myInner.x);
+
+        // Student myObj = new Student();
+
+    
+        // HelloWorld myObj = new HelloWorld();
+        // myObj.x = 50;
+        // myObj.PI = 25;
+        // System.out.println(myObj.x);
+
+        // HelloWorld myObj = new HelloWorld(1969,"Hein Wai Yan Htet");
+        // System.out.println(myObj.modelYear + " " + myObj.modelName);
+        
+        // HelloWorld myObj = new HelloWorld();
+        // System.out.println(myObj.x);
+
+        // HelloWorld myObj = new HelloWorld();
+
+        // myObj.fullThrottle();
+        // myObj.speed(200);
 
         // myStaticMethod();
 
